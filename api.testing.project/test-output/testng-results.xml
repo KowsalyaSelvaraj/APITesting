@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3816" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3816" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+      <class name="com.restassured.nonbdd.GetAllEmployees">
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="getAllEmployees" duration-ms="3738" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+      </class> <!-- com.restassured.nonbdd.GetAllEmployees -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

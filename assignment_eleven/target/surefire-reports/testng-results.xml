@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35372" started-at="2022-05-15T14:21:35 IST" finished-at="2022-05-15T14:22:11 IST">
+    <groups>
+    </groups>
+    <test name="Module1" duration-ms="14399" started-at="2022-05-15T14:21:35 IST" finished-at="2022-05-15T14:21:50 IST">
+      <class name="assignmenteleven.moduleone.test.AssignmentOneClassTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:assignmenteleven.moduleone.test.AssignmentOneClassTest@3aeaafa6]" name="initializeDriver" is-config="true" duration-ms="8687" started-at="2022-05-15T14:21:35 IST" finished-at="2022-05-15T14:21:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginToSwagLabs()[pri:0, instance:assignmenteleven.moduleone.test.AssignmentOneClassTest@3aeaafa6]" name="loginToSwagLabs" duration-ms="4625" started-at="2022-05-15T14:21:44 IST" finished-at="2022-05-15T14:21:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSwagLabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assignmenteleven.moduleone.test.AssignmentOneClassTest@3aeaafa6]" name="closeBrowser" is-config="true" duration-ms="1011" started-at="2022-05-15T14:21:49 IST" finished-at="2022-05-15T14:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignmenteleven.moduleone.test.AssignmentOneClassTest -->
+    </test> <!-- Module1 -->
+    <test name="Module2" duration-ms="7332" started-at="2022-05-15T14:21:50 IST" finished-at="2022-05-15T14:21:57 IST">
+      <class name="assignmenteleven.moduletwo.test.AssignmentTwoClassTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:assignmenteleven.moduletwo.test.AssignmentTwoClassTest@7403c468]" name="initializeDriver" is-config="true" duration-ms="4006" started-at="2022-05-15T14:21:50 IST" finished-at="2022-05-15T14:21:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginToSwagLabs()[pri:1, instance:assignmenteleven.moduletwo.test.AssignmentTwoClassTest@7403c468]" name="loginToSwagLabs" duration-ms="2946" started-at="2022-05-15T14:21:54 IST" finished-at="2022-05-15T14:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSwagLabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assignmenteleven.moduletwo.test.AssignmentTwoClassTest@7403c468]" name="closeBrowser" is-config="true" duration-ms="376" started-at="2022-05-15T14:21:57 IST" finished-at="2022-05-15T14:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignmenteleven.moduletwo.test.AssignmentTwoClassTest -->
+    </test> <!-- Module2 -->
+    <test name="Module3" duration-ms="7240" started-at="2022-05-15T14:21:57 IST" finished-at="2022-05-15T14:22:04 IST">
+      <class name="assignmenteleven.modulethree.test.AssignmentThreeClassTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:assignmenteleven.modulethree.test.AssignmentThreeClassTest@2a70a3d8]" name="initializeDriver" is-config="true" duration-ms="3224" started-at="2022-05-15T14:21:57 IST" finished-at="2022-05-15T14:22:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginToSwagLabs()[pri:1, instance:assignmenteleven.modulethree.test.AssignmentThreeClassTest@2a70a3d8]" name="loginToSwagLabs" duration-ms="3647" started-at="2022-05-15T14:22:00 IST" finished-at="2022-05-15T14:22:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSwagLabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assignmenteleven.modulethree.test.AssignmentThreeClassTest@2a70a3d8]" name="closeBrowser" is-config="true" duration-ms="366" started-at="2022-05-15T14:22:04 IST" finished-at="2022-05-15T14:22:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignmenteleven.modulethree.test.AssignmentThreeClassTest -->
+    </test> <!-- Module3 -->
+    <test name="Module4" duration-ms="6334" started-at="2022-05-15T14:22:04 IST" finished-at="2022-05-15T14:22:11 IST">
+      <class name="assignmenteleven.modulefour.test.AssignmentFourClassTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:assignmenteleven.modulefour.test.AssignmentFourClassTest@78ac1102]" name="initializeDriver" is-config="true" duration-ms="3628" started-at="2022-05-15T14:22:04 IST" finished-at="2022-05-15T14:22:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginToSwagLabs()[pri:1, instance:assignmenteleven.modulefour.test.AssignmentFourClassTest@78ac1102]" name="loginToSwagLabs" duration-ms="2387" started-at="2022-05-15T14:22:08 IST" finished-at="2022-05-15T14:22:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSwagLabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assignmenteleven.modulefour.test.AssignmentFourClassTest@78ac1102]" name="closeBrowser" is-config="true" duration-ms="316" started-at="2022-05-15T14:22:10 IST" finished-at="2022-05-15T14:22:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignmenteleven.modulefour.test.AssignmentFourClassTest -->
+    </test> <!-- Module4 -->
+  </suite> <!-- Suite -->
+</testng-results>

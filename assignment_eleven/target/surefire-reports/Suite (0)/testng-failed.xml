@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]">
+  <test thread-count="5" verbose="0" name="testng5(failed)">
+    <classes>
+      <class name="assignmentten.modulefive.AssignmentFivePageOne">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="loginToDemoSite"/>
+          <include name="fillDetails"/>
+        </methods>
+      </class> <!-- assignmentten.modulefive.AssignmentFivePageOne -->
+    </classes>
+  </test> <!-- testng5(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
