@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3816" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+  <suite name="Default suite" duration-ms="3354" started-at="2023-09-30T10:15:49 IST" finished-at="2023-09-30T10:15:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3816" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+    <test name="Default test" duration-ms="3354" started-at="2023-09-30T10:15:49 IST" finished-at="2023-09-30T10:15:52 IST">
       <class name="com.restassured.nonbdd.GetAllEmployees">
-        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="getAllEmployees" duration-ms="3738" started-at="2023-09-18T22:07:34 IST" finished-at="2023-09-18T22:07:38 IST">
+        <test-method status="PASS" signature="getAllEmployees()[pri:1, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="getAllEmployees" duration-ms="2995" started-at="2023-09-30T10:15:49 IST" finished-at="2023-09-30T10:15:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="createAnEmployee()[pri:2, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="createAnEmployee" duration-ms="91" started-at="2023-09-30T10:15:52 IST" finished-at="2023-09-30T10:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnEmployee -->
+        <test-method status="PASS" signature="updateAnEmployee()[pri:3, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="updateAnEmployee" duration-ms="69" started-at="2023-09-30T10:15:52 IST" finished-at="2023-09-30T10:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAnEmployee -->
+        <test-method status="PASS" signature="deleteAnEmployee()[pri:4, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="deleteAnEmployee" duration-ms="51" started-at="2023-09-30T10:15:52 IST" finished-at="2023-09-30T10:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAnEmployee -->
+        <test-method status="PASS" signature="getAnEmployee()[pri:5, instance:com.restassured.nonbdd.GetAllEmployees@1d29cf23]" name="getAnEmployee" duration-ms="59" started-at="2023-09-30T10:15:52 IST" finished-at="2023-09-30T10:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnEmployee -->
       </class> <!-- com.restassured.nonbdd.GetAllEmployees -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
