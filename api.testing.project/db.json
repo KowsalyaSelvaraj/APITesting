@@ -29,6 +29,12 @@
       "last_name": "Mount",
       "email": "john@gmail.com",
       "id": 7
+    },
+    {
+      "first_name": "Rajini",
+      "last_name": "SuperStar",
+      "email": "rajini@gmail.com",
+      "id": 8
     }
   ]
 }
