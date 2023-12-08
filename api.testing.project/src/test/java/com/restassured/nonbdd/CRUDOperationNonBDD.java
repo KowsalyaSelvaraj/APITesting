@@ -37,4 +37,38 @@ public class CRUDOperationNonBDD {
 
 		System.out.println(response.asPrettyString());
 	}
+
+	@Test
+	public void updateEmployee() {
+		RestAssured.baseURI = "http://localhost:3000";
+
+		RequestSpecification requestSpecification = RestAssured.given().header("Content-Type","application/json")
+				.body("{\r\n"
+						+ "    \"first_name\": \"Superman\",\r\n"
+						+ "    \"last_name\": \"Hulck1\",\r\n"
+						+ "    \"email\": \"superman123@gmail.com\"\r\n"
+						+ "  }");
+
+		Response response =	requestSpecification.request(Method.PUT,"/employees/10");
+		System.out.println(response.asPrettyString());
+		System.out.println(response.getStatusLine());
+	}
+
+	@Test
+	public void deleteEmployee() {
+
+		RestAssured.baseURI = "http://localhost:3000";
+
+		RequestSpecification requestSpecification = RestAssured.given();
+
+		Response response =	requestSpecification.request(Method.DELETE,"/employees/11");
+
+		System.out.println(response.asPrettyString());
+		System.out.println(response.statusLine());
+	}
+
+
+
+
+
 }
