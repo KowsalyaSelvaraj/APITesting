@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T18:23:38 IST" name="Default suite" finished-at="2023-11-30T18:23:38 IST" duration-ms="163">
+  <suite started-at="2023-12-09T22:13:32 IST" name="Default suite" finished-at="2023-12-09T22:13:33 IST" duration-ms="883">
     <groups>
     </groups>
-    <test started-at="2023-11-30T18:23:38 IST" name="Default test" finished-at="2023-11-30T18:23:38 IST" duration-ms="163">
-      <class name="com.workwith.jsonfile.WriteJsonFile">
-        <test-method signature="writeJsonFile()[pri:0, instance:com.workwith.jsonfile.WriteJsonFile@6c80d78a]" started-at="2023-11-30T18:23:38 IST" name="writeJsonFile" finished-at="2023-11-30T18:23:38 IST" duration-ms="40" status="PASS">
+    <test started-at="2023-12-09T22:13:32 IST" name="Default test" finished-at="2023-12-09T22:13:33 IST" duration-ms="883">
+      <class name="com.restassured.jsonschema.NetworkNtJsonSchemaValidator">
+        <test-method signature="jsonSchemaValidatorNetworkNt()[pri:0, instance:com.restassured.jsonschema.NetworkNtJsonSchemaValidator@550dbc7a]" started-at="2023-12-09T22:13:32 IST" name="jsonSchemaValidatorNetworkNt" finished-at="2023-12-09T22:13:33 IST" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writeJsonFile -->
-      </class> <!-- com.workwith.jsonfile.WriteJsonFile -->
+        </test-method> <!-- jsonSchemaValidatorNetworkNt -->
+      </class> <!-- com.restassured.jsonschema.NetworkNtJsonSchemaValidator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

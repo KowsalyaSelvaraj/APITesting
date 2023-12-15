@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.workwith.jsonfile.JSONReadingExample">
+      <class name="com.restassured.jsonschema.ClassPathJsonSchemaValidator">
         <methods>
-          <include name="readJsonFile"/>
+          <include name="jsonSchemaValidationUsingString"/>
         </methods>
-      </class> <!-- com.workwith.jsonfile.JSONReadingExample -->
+      </class> <!-- com.restassured.jsonschema.ClassPathJsonSchemaValidator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
