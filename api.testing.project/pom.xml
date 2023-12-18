@@ -38,6 +38,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--
+		https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -58,6 +66,13 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.15.3</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
+		<dependency>
+			<groupId>com.networknt</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>1.0.88</version>
 		</dependency>
 
 	</dependencies>
