@@ -77,6 +77,25 @@
       "last_name": "Charan",
       "email": "nanicharan@gmail.com",
       "id": 15
+    },
+    {
+      "skills": [
+        "Java",
+        "Selenium"
+      ],
+      "last_name": "Selvaraj",
+      "first_name": "Kowsalya",
+      "id": 16
+    },
+    {
+      "first_name": "Raj",
+      "last_name": "Mohan",
+      "email": "rajmohan@gmail.com",
+      "skills": [
+        "Direction",
+        "Acting"
+      ],
+      "id": 17
     }
   ]
 }

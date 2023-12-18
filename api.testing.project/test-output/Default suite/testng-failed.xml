@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.workwith.jsonfile.JSONReadingExample">
+      <class name="com.workwith.jsonfile.EmployeePOJO_1">
         <methods>
-          <include name="readJsonFile"/>
+          <include name="objectMapperSteps"/>
         </methods>
-      </class> <!-- com.workwith.jsonfile.JSONReadingExample -->
+      </class> <!-- com.workwith.jsonfile.EmployeePOJO_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

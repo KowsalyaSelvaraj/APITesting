@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T18:23:38 IST" name="Default suite" finished-at="2023-11-30T18:23:38 IST" duration-ms="163">
+  <suite started-at="2023-12-04T22:03:41 IST" name="Default suite" finished-at="2023-12-04T22:03:43 IST" duration-ms="1407">
     <groups>
     </groups>
-    <test started-at="2023-11-30T18:23:38 IST" name="Default test" finished-at="2023-11-30T18:23:38 IST" duration-ms="163">
-      <class name="com.workwith.jsonfile.WriteJsonFile">
-        <test-method signature="writeJsonFile()[pri:0, instance:com.workwith.jsonfile.WriteJsonFile@6c80d78a]" started-at="2023-11-30T18:23:38 IST" name="writeJsonFile" finished-at="2023-11-30T18:23:38 IST" duration-ms="40" status="PASS">
+    <test started-at="2023-12-04T22:03:41 IST" name="Default test" finished-at="2023-12-04T22:03:43 IST" duration-ms="1407">
+      <class name="com.workwith.jsonfile.EmployeePOJO_1">
+        <test-method signature="objectMapperSteps()[pri:0, instance:com.workwith.jsonfile.EmployeePOJO_1@6aba2b86]" started-at="2023-12-04T22:03:41 IST" name="objectMapperSteps" finished-at="2023-12-04T22:03:43 IST" duration-ms="1367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writeJsonFile -->
-      </class> <!-- com.workwith.jsonfile.WriteJsonFile -->
+        </test-method> <!-- objectMapperSteps -->
+      </class> <!-- com.workwith.jsonfile.EmployeePOJO_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
