@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.workwith.jsonfile.EmployeePOJO_1">
+      <class name="com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator">
         <methods>
-          <include name="objectMapperSteps"/>
+          <include name="validate"/>
         </methods>
-      </class> <!-- com.workwith.jsonfile.EmployeePOJO_1 -->
+      </class> <!-- com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

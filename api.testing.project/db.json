@@ -186,6 +186,16 @@
         "Taking Photos"
       ],
       "id": 25
+    },
+    {
+      "firstName": "Naani",
+      "lastName": "Charan",
+      "email": "nanicharan@gmail.com",
+      "skills": [
+        "Watering Plants",
+        "Taking Photos"
+      ],
+      "id": 26
     }
   ]
 }
