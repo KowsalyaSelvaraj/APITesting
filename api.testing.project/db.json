@@ -79,6 +79,22 @@
       "id": 15
     },
     {
+      "skills": [
+        "Java",
+        "Selenium"
+      ],
+      "last_name": "Selvaraj",
+      "first_name": "Kowsalya",
+      "id": 16
+    },
+    {
+      "first_name": "Raj",
+      "last_name": "Mohan",
+      "email": "rajmohan@gmail.com",
+      "skills": [
+        "Direction",
+        "Acting"
+      ],
       "id": 16
     },
     {
@@ -170,6 +186,16 @@
         "Taking Photos"
       ],
       "id": 25
+    },
+    {
+      "firstName": "Naani",
+      "lastName": "Charan",
+      "email": "nanicharan@gmail.com",
+      "skills": [
+        "Watering Plants",
+        "Taking Photos"
+      ],
+      "id": 26
     }
   ]
 }
