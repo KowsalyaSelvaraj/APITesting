@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator">
+      <class name="com.deserialization.interview.questions.DeserializationUsingRestAssuredAsFunction">
         <methods>
-          <include name="validate"/>
+          <include name="deserializeUsingAsFunction"/>
         </methods>
-      </class> <!-- com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator -->
+      </class> <!-- com.deserialization.interview.questions.DeserializationUsingRestAssuredAsFunction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
