@@ -13,12 +13,11 @@ public class HamcrestMatcherJsonSchemaValidator {
 
 	@Test
 	public void validate() throws IOException {
-		File inputJson = new File("src/test/resources/input.json");
 		
+		File inputJson = new File("src/test/resources/input.json");	
 		String jsonContentString = FileUtils.readFileToString(inputJson,"UTF-8");
-		
 		File jsonSchemaFile = new File("src/test/resources/schema.json");
-		
 		MatcherAssert.assertThat(jsonContentString, JsonSchemaValidator.matchesJsonSchema(jsonSchemaFile));
+		
 	}
 }
