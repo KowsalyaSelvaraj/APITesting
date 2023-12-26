@@ -16,26 +16,26 @@ public class SerializeData {
 
 
 	SuperHeroMoviesAndTVSeries heroMoviesAndTVSeries = new SuperHeroMoviesAndTVSeries();
-	
+
 	@Test
 	public void convertJsonToPOJOViceVersa() throws StreamWriteException, DatabindException, IOException {
 		heroMoviesAndTVSeries.setCategory("super hero moviesAndTVseries");
-
+		//this is comment line
 		List<String> acceptedFranchies= new ArrayList<String>();
 		acceptedFranchies.add("DC");
 		acceptedFranchies.add("Marvel");
 		heroMoviesAndTVSeries.setAcceptedFranchises(acceptedFranchies);
 
 		List<String> genresStrings = new ArrayList<String>();
-		
+
 		genresStrings.add("Action");
 		genresStrings.add("Adventure");
 		genresStrings.add("Heroic");
 		genresStrings.add("Dark");
 		genresStrings.add("Funny");
-		
+
 		heroMoviesAndTVSeries.setGenres(genresStrings);
-		
+
 		List<Movies> allMovies = new ArrayList<Movies>();
 
 		Movies batmanMovies = new Movies();
