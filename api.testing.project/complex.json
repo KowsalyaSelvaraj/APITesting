@@ -1,0 +1,36 @@
+{
+  "category" : "super hero moviesAndTVseries",
+  "acceptedFranchises" : [ "DC", "Marvel" ],
+  "genres" : [ "Action", "Adventure", "Heroic", "Dark", "Funny" ],
+  "movies" : [ {
+    "title" : "The Batman : The Dark Knight",
+    "year" : 2008,
+    "cast" : [ "Christian Bale", "Health Ledger" ]
+  }, {
+    "title" : "Advengers : Age of Uetron",
+    "year" : 2015,
+    "cast" : [ "Roert Downey Jr.", "Chris Evans" ]
+  }, {
+    "title" : "Justice League : Sydr Cut",
+    "year" : 2011,
+    "cast" : [ "Heandry Cavill", "Gal Gadot" ]
+  }, {
+    "title" : "The Avengers",
+    "year" : 2012,
+    "cast" : [ "Chris Evans", "Chris Hemsworth" ]
+  } ],
+  "tvSeries" : [ {
+    "title" : "Super Girl",
+    "year" : 2015
+  }, {
+    "title" : "Flash",
+    "year" : 2014
+  }, {
+    "title" : "Gotham",
+    "year" : 2014
+  } ],
+  "otherDetails" : [ {
+    "country" : "Only USA!! Engalukku veru engum kilaigal kidaiyathu!!",
+    "language" : "Aliens naalum english karanda"
+  } ]
+}

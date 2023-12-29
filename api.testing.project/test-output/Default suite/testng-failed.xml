@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator">
+      <class name="com.restassured.bdd.RequestSpecificationExample">
         <methods>
-          <include name="validate"/>
+          <include name="createAnotherEmployee"/>
+          <include name="specifyRequest"/>
         </methods>
-      </class> <!-- com.restassured.jsonschema.HamcrestMatcherJsonSchemaValidator -->
+      </class> <!-- com.restassured.bdd.RequestSpecificationExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
