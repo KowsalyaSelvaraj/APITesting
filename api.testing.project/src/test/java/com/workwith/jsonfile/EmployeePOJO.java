@@ -2,6 +2,9 @@ package com.workwith.jsonfile;
 
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class EmployeePOJO {
 
 	
@@ -11,6 +14,10 @@ public class EmployeePOJO {
 	
 	private List<String> skills;
 
+	@Getter
+	@Setter
+	private String toCheckLombokString;
+	
 	public String getFirst_name() {
 		return first_name;
 	}
