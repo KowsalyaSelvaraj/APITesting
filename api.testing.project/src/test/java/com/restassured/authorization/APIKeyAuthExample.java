@@ -22,7 +22,6 @@ public class APIKeyAuthExample {
 	
 	@Test
 	public void apiKeyAuthUsingQueryParam() {
-
 		RestAssured
 		.given()
 			.queryParam("q", "Madurai")

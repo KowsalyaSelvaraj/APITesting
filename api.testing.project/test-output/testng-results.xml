@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-29T16:56:05 IST" name="Default suite" finished-at="2023-12-29T16:56:06 IST" duration-ms="619">
+  <suite started-at="2024-01-01T21:36:39 IST" name="Default suite" finished-at="2024-01-01T21:36:44 IST" duration-ms="4977">
     <groups>
     </groups>
-    <test started-at="2023-12-29T16:56:05 IST" name="Default test" finished-at="2023-12-29T16:56:06 IST" duration-ms="619">
-      <class name="com.jackson.annotations.JsonSerializeAnnotationSerializer">
-        <test-method signature="serializeData()[pri:0, instance:com.jackson.annotations.JsonSerializeAnnotationSerializer@51e69659]" started-at="2023-12-29T16:56:05 IST" name="serializeData" finished-at="2023-12-29T16:56:06 IST" duration-ms="509" status="PASS">
+    <test started-at="2024-01-01T21:36:39 IST" name="Default test" finished-at="2024-01-01T21:36:44 IST" duration-ms="4977">
+      <class name="com.restassured.authorization.APIKeyAuthExample">
+        <test-method signature="apiKeyAuthUsingQueryParam()[pri:0, instance:com.restassured.authorization.APIKeyAuthExample@659499f1]" started-at="2024-01-01T21:36:39 IST" name="apiKeyAuthUsingQueryParam" finished-at="2024-01-01T21:36:44 IST" duration-ms="4827" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- serializeData -->
-      </class> <!-- com.jackson.annotations.JsonSerializeAnnotationSerializer -->
+        </test-method> <!-- apiKeyAuthUsingQueryParam -->
+      </class> <!-- com.restassured.authorization.APIKeyAuthExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
