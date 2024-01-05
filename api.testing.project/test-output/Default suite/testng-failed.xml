@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.restassured.bdd.RequestSpecificationExample">
+      <class name="com.deserialization.interview.questions.RequestSpecificationPropertiesExample">
         <methods>
-          <include name="createAnotherEmployee"/>
-          <include name="specifyRequest"/>
+          <include name="getDetails"/>
         </methods>
-      </class> <!-- com.restassured.bdd.RequestSpecificationExample -->
+      </class> <!-- com.deserialization.interview.questions.RequestSpecificationPropertiesExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
