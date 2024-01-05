@@ -1,0 +1,26 @@
+[
+{
+    "first_name": "Tom",
+    "last_name": "Cherry",
+    "email": "tomandcherry@gmail.com",
+    "age":12
+  },
+{
+    "first_name": "Oswald",
+    "last_name": "os",
+    "email": "olwald@gmail.com",
+    "age":21
+  },
+{
+    "first_name": "dora",
+    "last_name": "bujjy",
+    "email": "dorabujjy@gmail.com",
+    "age":55
+  },
+{
+    "first_name": "naruto",
+    "last_name": "thanos",
+    "email": "naruto@gmail.com",
+    "age":45
+  }
+]
